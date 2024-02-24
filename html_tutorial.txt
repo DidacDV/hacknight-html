@@ -1,0 +1,42 @@
+html 5 i css
+html funciona con etiquetas : <>, el text de les etiquetes va entre els <> i <>
+al principi de totes les pagines: <!DOCTYPE HTML> (< INDICA ON comença etiqueta i > on acaba)
+ETIQUETES:
+		-EN BLOC: ocupa tota la linia
+		-En linea: no ocupa tota la linea (obj dins del bloc)
+		Etiquetes mes importants a l'esquerra
+	-etiqueta impepinable:
+	<html>	aqui comença el codi en html
+	<body>	aqui començael text de veritat
+	<header> hola</header> 
+	</body>	aqui acaba el text
+	</hmtl>	aqui acaba el codi en html
+	-ETIQUETA DE ORGANITZACIO: 
+													
+													-<header> </header> - > capçalera de la web
+													-<title> -> Nom de la pagina web(tipo el que surt adalt)
+													- <h1,h2,h3,h4,h5,h6> on h1 es el text mes gran i h6 el més petit (ordre d'importància)
+													- <ol> LLISTA ORDENADA, utilitza li que son list icon (ordenada per 1,2,3...)
+																<li> </li>
+														</ol>
+													- <ul> LLISTA NO ORDENADA, es fica amb ·
+													-<footer> ->peu de pg
+	-ETIQUETA UNITARIA: (NO NECESSITEN TANCAMENT)
+													-<br> -> salt de linia
+													
+	<a> </a> o elemento ancladu: crea hipervinculo a pg web, arxius, correus... coses que es defineixin amb URL (han d'estar ddins de <h1-6> o <p>).
+	<form> </form> -> formulario
+				Per fer formularis, te dos metodes per recollir i mostrar la informacio:
+					-Get: Al introduir les dades al formulari, aquestes  es mostren a a la URL - > sintaxi:  <form method = "GET">
+					-Post: Les dades nomes van per un canal privat de la web, no es poden veure, son enviades 
+							fiquem <p> per indicar l'inici d'un paragraf, <label> ... <...>
+	<input> etiqueta que permet  deixar a l'usuari fica input. 
+			Te opcions obligatories-> per exemple: text
+																				password
+																				radio
+																				button
+																				
+		Si vull que un css s'apliqui a un html, fiquem al <head> una etiqueta: <link rel = "stylesheet" href = "style.css"/>
+		Cada etiqueta del html te propietats per al css (algunes son comuns altres exclusives)
+		
+		<h1 id = "home"> fent aixo li assignem el id a aquest text com a home, aixi el podem referenciar en altres ocasions.

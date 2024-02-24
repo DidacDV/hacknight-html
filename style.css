@@ -1,0 +1,16 @@
+body {
+  background-color: powderblue;
+}
+h1 {
+  color: white;
+}
+p {
+  color: white;
+}
+p {
+  border: 2px solid powderblue;
+  margin: 50px;
+}
+body {
+  background-image: url("fons2.jpeg");
+}
